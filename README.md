@@ -1,9 +1,11 @@
 # how-membership-works
 
-Created with CodeSandbox
+Created with CodeSandbox.
 
-![desktop](https://user-images.githubusercontent.com/7514993/102506180-3d524180-4059-11eb-9681-e8f7fc7ca3bc.png)
+https://codesandbox.io/s/github/reyronald/how-membership-works
 
-![mobile](https://user-images.githubusercontent.com/7514993/102506573-a3d75f80-4059-11eb-82f7-252911ed701f.png)
+![desktop](https://user-images.githubusercontent.com/7514993/102703324-c200b380-4243-11eb-89fd-a37cddb76403.png)
 
-![TB-3441 how membership works mobile GIF](https://user-images.githubusercontent.com/7514993/102506494-8904eb00-4059-11eb-8384-61d34847d1ed.gif)
+![mobile ](https://user-images.githubusercontent.com/7514993/102703330-d0e76600-4243-11eb-861f-bfe3d46ab464.png)
+
+![mobile gif](https://user-images.githubusercontent.com/7514993/102703317-b0b7a700-4243-11eb-8329-6f25bb7d421b.gif)

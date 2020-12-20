@@ -18,3 +18,7 @@ body {
   place-content: center;
   background: #282828;
 }
+
+p {
+  margin: 0;
+}

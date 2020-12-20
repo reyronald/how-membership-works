@@ -9,7 +9,12 @@ const i18n = {
   t: (value: string) => value,
 }
 
-const Trans = ({ i18nKey, children }) => children
+const Trans = ({
+  children,
+}: {
+  i18nKey: string
+  children: React.ReactNode
+}) => <>{children}</>
 
 const Link = 'a'
 
@@ -245,7 +250,7 @@ export const HowMembershipWork: React.FC<{}> = () => {
 
   return (
     <HowMembershipWorkContainer>
-      <Header as="h2">{i18n.t('How membership works')}</Header>
+      <Header as="h2">{i18n.t('Aenean sit amet.')}</Header>
 
       <ListContainer>
         <ShadowsOverlay
@@ -265,58 +270,58 @@ export const HowMembershipWork: React.FC<{}> = () => {
         <List ref={listRef} onScroll={handleListItemVisibilityChange}>
           <li>
             <Description1>
-              {i18n.t('Choose a plan and who’s covered.')}
+              {i18n.t('Ut accumsan, nisl ac mollis scelerisque, risus.')}
             </Description1>
 
             <Description2>
               {i18n.t(
-                'Stitch works with your health insurance to protect your finances.*',
+                'Aliquam sagittis massa sed pharetra condimentum. Praesent in metus suscipit.*',
               )}
             </Description2>
 
             <Description3>
-              <Trans i18nKey="Membership begins 30 days and then the first of the month after signing up">
-                *Membership begins <strong>30 days</strong> and then the first
-                of the month after signing up.
+              <Trans i18nKey="Praesent eget est maximus neque malesuada molestie in id nulla Mauris accumsan libero eget placerat">
+                *Praesent eget <strong>est maximus</strong> neque malesuada
+                molestie in id nulla. Mauris accumsan, libero eget placerat.
               </Trans>
             </Description3>
           </li>
 
           <li>
             <Description1>
-              {i18n.t('You or a loved one ends up injured or sick.')}
+              {i18n.t('Donec porta, mauris et consectetur semper.')}
             </Description1>
 
             <Description2>
               {i18n.t(
-                'Your health insurance pays a portion, but if you have a high deductible you might be left with a bunch of bills.',
+                'Suspendisse potenti. Mauris in nulla rutrum, sodales felis id, commodo enim. Morbi quis consectetur nibh. In a dolor.',
               )}
             </Description2>
 
-            <StyledLink to={'#'}>{i18n.t('See what we mean')}</StyledLink>
+            <StyledLink href={'#'}>{i18n.t('Nam id lacus.')}</StyledLink>
           </li>
 
           <li>
             <Description1>
-              {i18n.t('File a claim online with Stitch.')}
+              {i18n.t('Vestibulum mollis metus sit amet risus.')}
             </Description1>
 
             <Description2>
               {i18n.t(
-                'It’s easy to file a claim online and get the help you need right away. We pay you based on your treatments or diagnosis.',
+                'Donec rutrum mi sed augue porta, sed tristique purus ullamcorper. Vestibulum ante ipsum primis in.',
               )}
             </Description2>
-            <StyledLink to={'#'}>{i18n.t('See how claims work')}</StyledLink>
+            <StyledLink href={'#'}>{i18n.t('Nam id lacus.')}</StyledLink>
           </li>
 
           <li>
             <Description1>
-              {i18n.t('Use the money however you want.')}
+              {i18n.t('Vivamus porta vehicula lectus, a ultrices.')}
             </Description1>
 
             <Description2>
               {i18n.t(
-                'Unlike your health insurance, you can use the money to pay for anything; from your mortgage bill to groceries.',
+                'Nunc sit amet placerat velit. Quisque facilisis neque est, ut ornare odio facilisis nec. Ut turpis.',
               )}
             </Description2>
           </li>
